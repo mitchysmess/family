@@ -21,13 +21,13 @@ export function AppHeader({ currentUser, onSignOut }: AppHeaderProps) {
   return (
     <header className="border-b border-[#d7e3ce] bg-white/88 backdrop-blur-xl">
       <div className="bg-[#7d8b38] px-6 py-2 text-center text-xs font-semibold uppercase tracking-wide text-[#fff2b8]">
-        Familie Kompas
+        Familie Hoekstra
       </div>
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-4 sm:min-h-24 sm:flex-row sm:items-center sm:justify-between sm:px-6 sm:py-5 lg:px-8">
         <div className="flex min-w-0 items-center gap-3">
           <Link
             href="/"
-            aria-label="Familie Kompas dashboard"
+            aria-label="Familie Hoekstra dashboard"
             className="rounded-full"
           >
             <BrandLogo size="sm" className="sm:h-16 sm:w-16" />

@@ -1,4 +1,4 @@
-# Familie Kompas
+# Familie Hoekstra
 
 Een Next.js app om thuis taken, klusjes en kleine afspraken bij te houden. Het
 gezin logt in met een gedeeld wachtwoord. Daarna kun je taken aanmaken,

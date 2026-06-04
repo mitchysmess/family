@@ -31,7 +31,7 @@ export default function AppleIcon() {
             lineHeight: 0.9,
           }}
         >
-          FK
+          FH
         </div>
         <div
           style={{

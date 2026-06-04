@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://familie-kompas.local"),
+  metadataBase: new URL("https://family-hoekstra.vercel.app"),
   title: {
-    default: "Familie Kompas",
-    template: "%s | Familie Kompas",
+    default: "Familie Hoekstra",
+    template: "%s | Familie Hoekstra",
   },
   description: "Gezinstaken, afspraken en voortgang op een rustige plek.",
-  applicationName: "Familie Kompas",
+  applicationName: "Familie Hoekstra",
   icons: {
     icon: [
       { url: "/favicon.ico?v=familie", sizes: "any" },
@@ -17,16 +17,16 @@ export const metadata: Metadata = {
     apple: "/apple-icon?v=familie",
   },
   openGraph: {
-    title: "Familie Kompas",
+    title: "Familie Hoekstra",
     description: "Gezinstaken, afspraken en voortgang op een rustige plek.",
-    url: "https://familie-kompas.local",
-    siteName: "Familie Kompas",
+    url: "https://family-hoekstra.vercel.app",
+    siteName: "Familie Hoekstra",
     locale: "nl_NL",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Familie Kompas",
+    title: "Familie Hoekstra",
     description: "Gezinstaken, afspraken en voortgang op een rustige plek.",
   },
 };

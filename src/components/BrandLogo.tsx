@@ -15,7 +15,7 @@ const sizes = {
 export function BrandLogo({ className, size = "md" }: BrandLogoProps) {
   return (
     <span
-      aria-label="Familie Kompas"
+      aria-label="Familie Hoekstra"
       className={cn(
         "relative inline-flex shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#244f45] text-[#fff2b8] shadow-sm ring-4 ring-[#fff2b8]",
         sizes[size],

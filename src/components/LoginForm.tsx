@@ -38,7 +38,7 @@ export function LoginForm({
           <BrandLogo />
           <div>
             <p className="text-xs font-semibold uppercase tracking-wide text-[#347468]">
-              Familie Kompas
+              Familie Hoekstra
             </p>
             <h1 className="mt-1 text-2xl font-semibold text-[#183b35]">
               Gezinslogin

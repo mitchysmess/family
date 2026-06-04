@@ -51,7 +51,7 @@ export default function OpenGraphImage() {
               width: 260,
             }}
           >
-            FK
+            FH
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div
@@ -63,7 +63,7 @@ export default function OpenGraphImage() {
                 textTransform: "uppercase",
               }}
             >
-              Familie Kompas
+              Familie Hoekstra
             </div>
             <div
               style={{
