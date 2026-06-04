@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #f6f7f1;
+  --foreground: #171717;
+  --brand-burgundy: #244f45;
+  --brand-burgundy-soft: #347468;
+  --brand-orange: #e66d35;
+  --brand-blue: #9ab7d9;
+  --brand-mint: #b9d8c4;
+  --brand-olive: #7d8b38;
+  --brand-cream: #fff2b8;
+  --brand-paper: #fffdf7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Nunito", Arial, Helvetica, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+body {
+  background:
+    linear-gradient(120deg, rgba(255, 242, 184, 0.74), transparent 34rem),
+    linear-gradient(220deg, rgba(154, 183, 217, 0.32), transparent 30rem),
+    linear-gradient(180deg, var(--brand-paper) 0%, var(--background) 48%, #eef3e9 100%);
+  color: var(--foreground);
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--brand-burgundy);
+  color: var(--brand-cream);
+}
+
+@media (max-width: 767px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
